@@ -1,0 +1,19 @@
+{
+  "name": "random_components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markwinpanerio/random_components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markwinpanerio/random_components/issues"
+  },
+  "homepage": "https://github.com/markwinpanerio/random_components#readme"
+}
