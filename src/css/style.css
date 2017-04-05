@@ -1,14 +1,15 @@
 /* 1-setting */
-
 /* 2-base */
-@import '2-base/generic';
+* {
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  margin: 0; }
 
 /* 3-mixin */
-
 /* 4-layout */
-
 /* 5-module */
-
 /* 6-utility */
-
 /* 7-theme */
