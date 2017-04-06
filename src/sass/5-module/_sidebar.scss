@@ -1,0 +1,38 @@
+.sidebar {
+    $this: &;
+    clip-path: polygon(0 0, 90% 0%, 50% 100%, 0% 100%);
+    width: 35%;
+    height: 100%;
+    background: linear-gradient(-360deg, rgba(255,0,0,0),rgba(230,230,230,1));
+    position: fixed;
+    top: 0;
+    transition: transform 0.6s ease-in-out 1.5s;
+
+    &.is-active {
+        transform: translateX(-550px);
+
+        #{$this}-avatar {
+            opacity: 0;
+            transform: translateY(-150px);
+            box-shadow: 4px 4px 9px 2px #d4d1d1;
+        }
+    }
+
+    &-avatar {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        background: #fff;
+        position: absolute;
+        left: -100px;
+        right: 0;
+        top: 10%;
+        margin: 0 auto;
+        opacity: 1;
+        box-shadow: 4px 4px 9px 2px #d4d1d1;
+        transform: translateY(0);
+        transition: transform 1s ease-in-out 1.8s,
+                    opacity 0.6s ease-in-out 2.1s,
+                    box-shadow 0.6s ease-in-out 2.1s;
+    }
+}
