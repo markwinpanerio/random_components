@@ -6,10 +6,24 @@
 /* 3-mixin */
 
 /* 4-layout */
+@import '4-layout/l-container';
+@import '4-layout/l-header';
+@import '4-layout/l-main';
+@import '4-layout/l-section';
+@import '4-layout/l-grid';
+
 
 /* 5-module */
 @import '5-module/welcome';
 @import '5-module/sidebar';
+@import '5-module/catch';
+@import '5-module/about-me';
+@import '5-module/works';
+@import '5-module/contact';
+@import '5-module/nav';
+@import '5-module/button';
+@import '5-module/input';
+@import '5-module/bb8';
 
 /* 6-utility */
 

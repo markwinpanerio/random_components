@@ -1,0 +1,21 @@
+.input {
+    font-size: 16px;
+    padding: 15px 0;
+    border: none;
+    border-bottom: 2px solid #ccc;
+
+    &::placeholder {
+        transform: translateY(0);
+        transition: all 0.2s ease-in-out;
+    }
+
+    &:focus {
+        &::placeholder {
+            opacity: 1;
+            transform: translateY(-25px);
+            font-size: 13px;
+            transition: all 0.2s ease-in-out;
+        }
+
+    }
+}

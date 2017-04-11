@@ -1,0 +1,39 @@
+.l-grid {
+    width: 100%;
+
+    &-inner {
+        margin: 0;
+        font-size: 0;
+    }
+
+    &-item {
+        border: 1px solid #000;
+        padding: 30px 0;
+    }
+
+    //2columns
+
+    &-col2 {
+        .l-grid-item {
+            width: 50%;
+            display: inline-block;
+        }
+    }
+
+    //3columns
+
+    &-col3 {
+        .l-grid-item {
+            width: 33.33%;
+            display: inline-block;
+        }
+    }
+
+    //12columns
+    &-col12 {
+        .l-grid-item {
+            width: 8.33%;
+            display: inline-block;
+        }
+    }
+}
